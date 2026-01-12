@@ -14,3 +14,7 @@ saveButton.addEventListener('click', () => {
        result = 0;
     resultDisplay.textContent = result;
 });
+
+deleteSaveButton.onclick = function() {
+    saveResult.textContent = "Saved Result:";
+}
